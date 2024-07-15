@@ -1,0 +1,164 @@
+{
+  "nodes": {
+    "disko": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1721007199,
+        "narHash": "sha256-Gof4Lj1rgTrX59bNu5b/uS/3X/marUGM7LYw31NoXEA=",
+        "owner": "nix-community",
+        "repo": "disko",
+        "rev": "bad376945de7033c7adc424c02054ea3736cf7c4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "disko",
+        "type": "github"
+      }
+    },
+    "flake-parts": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib"
+      },
+      "locked": {
+        "lastModified": 1719994518,
+        "narHash": "sha256-pQMhCCHyQGRzdfAkdJ4cIWiw+JNuWsTX7f0ZYSyz0VY=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "9227223f6d922fee3c7b190b2cc238a99527bbb7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "nix-systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "nixos-hardware": {
+      "locked": {
+        "lastModified": 1720737798,
+        "narHash": "sha256-G/OtEAts7ZUvW5lrGMXSb8HqRp2Jr9I7reBuvCOL54w=",
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "rev": "c5013aa7ce2c7ec90acee5d965d950c8348db751",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixos-hardware",
+        "type": "github"
+      }
+    },
+    "nixos-tow-boot": {
+      "inputs": {
+        "flake-parts": "flake-parts",
+        "nix-systems": "nix-systems",
+        "nixpkgs": "nixpkgs",
+        "tow-boot": "tow-boot"
+      },
+      "locked": {
+        "lastModified": 1721081062,
+        "narHash": "sha256-Py+JKmE7lq4qaWb0yBIa1+FZIASM06YnrgXRHoY/604=",
+        "owner": "chrillefkr",
+        "repo": "nixos-tow-boot",
+        "rev": "8419d5b95d1f1217a6b9aef98d572aeaf802eaa7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrillefkr",
+        "repo": "nixos-tow-boot",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1720418205,
+        "narHash": "sha256-cPJoFPXU44GlhWg4pUk9oUPqurPlCFZ11ZQPk21GTPU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "655a58a72a6601292512670343087c2d75d859c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-lib": {
+      "locked": {
+        "lastModified": 1719876945,
+        "narHash": "sha256-Fm2rDDs86sHy0/1jxTOKB1118Q0O3Uc7EC0iXvXKpbI=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/5daf0514482af3f97abaefc78a6606365c9108e2.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/5daf0514482af3f97abaefc78a6606365c9108e2.tar.gz"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1720954236,
+        "narHash": "sha256-1mEKHp4m9brvfQ0rjCca8P1WHpymK3TOr3v34ydv9bs=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "53e81e790209e41f0c1efa9ff26ff2fd7ab35e27",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "disko": "disko",
+        "nixos-hardware": "nixos-hardware",
+        "nixos-tow-boot": "nixos-tow-boot",
+        "nixpkgs": "nixpkgs_2"
+      }
+    },
+    "tow-boot": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713477322,
+        "narHash": "sha256-fOo6+oiRbv0Qw8P4lpGhjh/TJe+qZVH60bBTO4jp17k=",
+        "owner": "Tow-Boot",
+        "repo": "Tow-Boot",
+        "rev": "8895b0cd941656370001c881b8f63bfcf44822ec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Tow-Boot",
+        "ref": "release-2023.07-007",
+        "repo": "Tow-Boot",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
